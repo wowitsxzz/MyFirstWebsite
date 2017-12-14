@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<title>not so hard</title>
+	<body style="background-color: #4E4B56;">
+
+<head>
+	<meta charset="utf-8">
+	<style>
+/* 下划菜单设置 */
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 10;
+		overflow: hidden;
+		background-color: #eeeeee;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a, .dropbtn {
+		display: inline-block;
+		color: #2D1C12;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+		background-color: #A97F80;
+	}
+
+	.dropdown {
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	.dropdown-content a {
+		color: #2D1C12;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+/* 卡片式展示*/
+	div.card {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s；
+		width: 200px;
+		border-radius: 5px
+	}
+
+	div.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+
+	div.card: img {
+		border-radius: 5px 5px 0 0;
+	}
+
+	div.container {
+		padding: 2px 16px;
+	}
+
+/* BookList图片墙 */
+	div.img {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 180px;
+	}
+
+	div.img:hover {
+		border: 1px solid #777;
+	}
+
+	div.img img {
+		width: 100%;
+		height: auto;
+	}
+
+	div.desc {
+		padding: 15px;
+		text-align: center;
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<div id="header" style="color: white; text-align: center; padding: 5px;">
+	<h1>SYLVIA</h1>
+	</div>	
+
+<!--horizontal menu + dropdown-->
+	<ul>
+  		<li><a class="active" href="#home">Hey</a></li>
+
+  		<div class="dropdown">
+  			<a href="#Iam" class="dropbtn">I am</a>
+  			<div class="dropdown-content">
+  				<a href="#">the</a>
+  				<a href="#">only</a>
+  				<a href="#">fariy</a>
+  			</div>
+  		</div>
+
+  		<div class="dropdown">
+			<a href="#Iread" class="dropbtn">I read</a>
+    		<div class="dropdown-content">
+      			<a href="#">tons</a>
+      			<a href="#">of</a>
+      			<a href="#">books</a>
+    		</div>
+  		</div>
+
+  		<div class="dropdown">
+			<a href="#Iwatch" class="dropbtn">I watch</a>
+    		<div class="dropdown-content">
+      			<a href="#">countless</a>
+      			<a href="#">diversifed</a>
+      			<a href="#">movies</a>
+    		</div>
+  		</div>
+
+  		<div class="dropdown">
+			<a href="#Imade" class="dropbtn">I made</a>
+    		<div class="dropdown-content">
+      			<a href="#">genius</a>
+      			<a href="#">of</a>
+      			<a href="#">handcraft</a>
+    		</div>
+  		</div>
+
+  		<div class="dropdown">
+			<a href="#Itravel" class="dropbtn">I travel</a>
+    		<div class="dropdown-content">
+      			<a href="#">around</a>
+      			<a href="#">the</a>
+      			<a href="#">world</a>
+    		</div>
+  		</div>
+
+  		<div class="dropdown">
+			<a href="#Iwant" class="dropbtn">I want</a>
+    		<div class="dropdown-content">
+      			<a href="#">money</a>
+      			<a href="#">to</a>
+      			<a href="#">burn</a>
+    		</div>
+  		</div>
+	</ul>
+
+<!--FrontPage-->
+	<div style="padding: 30px; margin-top: 20px; background-color: #D0AAA7; height: 600px;">
+		<h1>QUE SERA SERA</h1>
+		<p>
+		When I was just a little girl,<br>
+		I asked my mother: what will I be?<br>
+		Will I be pretty? Will I be rich?<br>
+		</p>
+		<p>
+		Here is what she said to me:<br>
+		Que sera sera, whatever will be, will be.<br>
+		The future is not us to see, que sera sera.<br>
+		</p>
+		<p>
+		What will be, will be.
+		</p>
+	</div>
+
+<!--PageIam-->
+<a name="Iam">
+	<div style="padding: 20px; margin-top: 45px; background-color: #eeeeee; height: 600px;">
+		<p>
+		<img src="https://assets.strikingly.com/static/icons/delicate/59.png" align="left" />
+		</p>		
+		<div style="padding: 20px; margin-top: 30px; border-style: dotted; border-width: 1px;">			
+			<h1>Hello</h1>
+			<p>
+		Books grow me up.<br>
+		Movie is the air.<br>
+		Milk keeps me alive.<br>
+		Coffee is blood.<br>
+		Handcraft fills the room.<br>
+		Dairy records moments.<br>
+		LuLu tucked me sleep. #emmm...in fact he bites me.#<br>
+			</p>
+		</div>
+	</div>
+</a>
+
+<!--PageIread-->
+<a name="Iread">
+	<div style="padding: 20px; margin-top: 45px; background-color: #868DA0; height: 600px;">
+		<div id="header" style="color: white; text-align: center; padding: 30px">
+			<h1>Book List</h1>
+			<h2>Views around the world.</h2>
+		</div>
+
+		<div class="responsive">
+			<div class="img">
+				<a target="_blank" href="https://www.zhihu.com">
+					<img src="解忧杂货店.jpg" alt="解忧杂货店1" width="200" height="300">
+				</a>
+				<div class="desc">解忧杂货店</div>
+			</div>
+		</div>
+
+		<div class="responsive">
+			<div class="img">
+				<a target="_blank" href="https://www.zhihu.com">
+					<img src="天才在左疯子在右.jpg" alt="天才在左疯子在右1" width="200" height="300">
+				</a>
+				<div class="desc">天才在左疯子在右</div>
+			</div>
+		</div>
+
+		<div class="responsive">
+			<div class="img">
+				<a target="_blank" href="https://www.zhihu.com">
+					<img src="忒修斯之船.jpg" alt="忒修斯之船1" width="200" height="300">
+				</a>
+				<div class="desc">忒修斯之船</div>
+			</div>
+		</div>	
+		
+	</div>
+</a>
+
+<!--PageIwatch-->
+<a name="Iwatch">
+	<div style="padding: 20px; margin-top: 45px; background-color: #A97F80; height: 600px;">
+		<div id="header" style="color: #2D1C12; text-align: center; padding: 30px">
+			<h1>Movies</h1>
+			<h2>Life is drama, vise verse.</h2>
+		</div>
+
+	<div class="card">
+  		<img src="https://static.runoob.com/images/mix/img_avatar.png" alt="Avatar" style="width:10%">
+  			<div class="container">
+    			<h4><b>菜教程</b></h4> 
+    			<p>www.runoob.com</p> 
+  			</div>
+	</div>
+
+	</div>
+</a>
+
+<!--PageImade-->
+<a name="Imade">
+	<div style="padding: 20px; margin-top: 45px; background-color: #eeeeee; height: 600px;">
+		<div id="header" style="color: #2D1C12; text-align: center; padding: 30px">
+			<h1>HandCraft</h1>
+			<h2>Everything made by hands.</h2>
+		</div>
+
+	</div>
+</a>
+
+<!--PageItravel-->
+<a name="Itravel">
+	<div style="padding: 20px; margin-top: 45px; background-color: #2D1C12; height: 600px;">
+		<div id="header" style="color: #D0AAA7; text-align: center; padding: 30px">
+			<h1>Selected Advanture</h1>
+			<h2>Travel broadens lift.</h2>
+		</div>
+		
+	</div>
+</a>
+
+<!--Footer-->
+	<div id="footer" style="background-color: white; color: #2D1C12; text-align: center; padding: 3px">
+	<p>Copyright @ lovingcodingのzx</p>	
+	</div>
+
+</body>
+</html>
